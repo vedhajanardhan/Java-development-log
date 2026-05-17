@@ -1,0 +1,26 @@
+class BankAccount {
+
+    // Private variable
+    private int balance;
+
+    // Setter method
+    public void setBalance(int b) {
+        balance = b;
+    }
+
+    // Getter method
+    public int getBalance() {
+        return balance;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        BankAccount acc = new BankAccount();
+
+        acc.setBalance(5000);
+
+        System.out.println("Balance: " + acc.getBalance());
+    }
+}
